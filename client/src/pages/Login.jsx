@@ -127,16 +127,16 @@ console.log("data entered are",data)
             
           >Forgot Password ? 
           <p className="flex flex-row justify-between">
-          <span className="mb-4  text-indigo-500 cursor-pointer"  onClick={() => navigate("/reset-password")}>  Using Otp
+          <span className="mb-4  text-indigo-500 cursor-pointer"  onClick={() => navigate("/reset-passwordusingOtp")}>  Using Otp
           </span>
 
 
-          {/* <span
+          <span
             onClick={() => navigate("/reset-passwordinEmail")}
             className="mb-4  text-indigo-500 cursor-pointer"
           >
               Using Email
-          </span> */}
+          </span>
           </p>
           </p>
 

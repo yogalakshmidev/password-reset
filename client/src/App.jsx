@@ -6,7 +6,8 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import EmailVerify from "./pages/EmailVerify";
 import ResetPassword from "./pages/ResetPassword";
-// import ResetPasswordinEmail from "./pages/ResetPasswordinEmail";
+ import ResetPasswordinEmail from "./pages/ResetPasswordinEmail";
+import PasswordUpdate from "./pages/PasswordUpdate";
 
 
 const App = () => {
@@ -17,8 +18,10 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/email-verify" element={<EmailVerify />} />
-        <Route path="/reset-password" element={<ResetPassword />} />
-        {/* <Route path="/reset-passwordinEmail" element={<ResetPasswordinEmail />} /> */}
+        <Route path="/reset-passwordusingOtp" element={<ResetPassword />} />
+        <Route path="/reset-passwordinEmail" element={<ResetPasswordinEmail />} />
+        <Route path="/update-password" element={<PasswordUpdate />} />
+
       </Routes>
     </div>
   );
